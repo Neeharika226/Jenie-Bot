@@ -1,0 +1,56 @@
+pattern,cleaned_pattern,tag
+Hi,hi,greeting
+Hello,hello,greeting
+Hey,hey,greeting
+Good morning,good morning,greeting
+Good evening,good evening,greeting
+hii,hii,greeting
+hello,hello,greeting
+Bye,bye,goodbye
+Goodbye,goodbye,goodbye
+See you later,see you later,goodbye
+Exit,exit,goodbye
+Quit,quit,goodbye
+What is a syntax error?,what is a syntax error,syntax_error
+I got a syntax error,i got a syntax error,syntax_error
+syntax problem,syntax problem,syntax_error
+Why does Python show syntax error?,why does python show syntax error,syntax_error
+How to write a for loop,how to write a for loop,for_loop
+Python for loop example,python for loop example,for_loop
+use for loop,use for loop,for_loop
+iterate using for loop,iterate using for loop,for_loop
+Python while loop,python while loop,while_loop
+how to use while loop,how to use while loop,while_loop
+while loop example,while loop example,while_loop
+How does if else work,how does if else work,if_else
+example for if else,example for if else,if_else
+Python if condition,python if condition,if_else
+conditional statements,conditional statements,if_else
+How to write a function,how to write a function,functions
+function in Python,function in python,functions
+define function,define function,functions
+create a Python function,create a python function,functions
+how to add to a list,how to add to a list,list_operations
+remove from list,remove from list,list_operations
+list methods,list methods,list_operations
+modify list,modify list,list_operations
+string functions,string functions,string_operations
+reverse a string,reverse a string,string_operations
+capitalize string,capitalize string,string_operations
+string operations,string operations,string_operations
+try except,try except,exceptions
+how to handle errors,how to handle errors,exceptions
+Python exceptions,python exceptions,exceptions
+error handling,error handling,exceptions
+how to debug,how to debug,debugging
+debug python,debug python,debugging
+troubleshoot code,troubleshoot code,debugging
+fix my code,fix my code,debugging
+read file,read file,file_handling
+write to file,write to file,file_handling
+file operations,file operations,file_handling
+file handling in python,file handling in python,file_handling
+what can you do,what can you do,help
+how can you help,how can you help,help
+your features,your features,help
+assist me,assist me,help

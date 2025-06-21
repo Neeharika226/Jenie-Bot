@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "hii", "hello"],
+      "responses": ["Hello! How can I help you with Python today?", "Hi there! Need help with Python?", "Hey! Let's solve your Python query.", "Hello! Dear python Learner:)"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Exit", "Quit"],
+      "responses": ["Goodbye! Happy coding!", "See you later!", "Come back if you need more Python help!"]
+    },
+    {
+      "tag": "syntax_error",
+      "patterns": ["What is a syntax error?", "I got a syntax error", "syntax problem", "Why does Python show syntax error?"],
+      "responses": ["A syntax error happens when Python can't understand your code. Check for missing colons, brackets, or indentation."]
+    },
+    {
+      "tag": "for_loop",
+      "patterns": ["How to write a for loop", "Python for loop example", "use for loop", "iterate using for loop"],
+      "responses": ["Here's an example:\nfor i in range(5):\n    print(i)"]
+    },
+    {
+      "tag": "while_loop",
+      "patterns": ["Python while loop", "how to use while loop", "while loop example"],
+      "responses": ["Example:\ni = 0\nwhile i < 5:\n    print(i)\n    i += 1"]
+    },
+    {
+      "tag": "if_else",
+      "patterns": ["How does if else work", "example for if else", "Python if condition", "conditional statements"],
+      "responses": ["Here's an example:\nx = 10\nif x > 5:\n    print('Greater than 5')\nelse:\n    print('Less or equal to 5')"]
+    },
+    {
+      "tag": "functions",
+      "patterns": ["How to write a function", "function in Python", "define function", "create a Python function"],
+      "responses": ["Example:\ndef greet():\n    print('Hello!')\n\ngreet()"]
+    },
+    {
+      "tag": "list_operations",
+      "patterns": ["how to add to a list", "remove from list", "list methods", "modify list"],
+      "responses": ["Use list methods like:\nappend(), remove(), pop(), insert(), sort()"]
+    },
+    {
+      "tag": "string_operations",
+      "patterns": ["string functions", "reverse a string", "capitalize string", "string operations"],
+      "responses": ["Common string methods:\n.upper(), .lower(), .capitalize(), .replace(), .find()"]
+    },
+    {
+      "tag": "exceptions",
+      "patterns": ["try except", "how to handle errors", "Python exceptions", "error handling"],
+      "responses": ["Use try-except block:\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')"]
+    },
+    {
+      "tag": "debugging",
+      "patterns": ["how to debug", "debug python", "troubleshoot code", "fix my code"],
+      "responses": ["You can debug using print statements or use Python’s built-in debugger with `import pdb`."]
+    },
+    {
+      "tag": "file_handling",
+      "patterns": ["read file", "write to file", "file operations", "file handling in python"],
+      "responses": ["To read a file:\nwith open('file.txt', 'r') as f:\n    content = f.read()"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["what can you do", "how can you help", "your features", "assist me"],
+      "responses": ["I can help you with Python basics: loops, functions, errors, syntax, and file handling."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that. Can you rephrase or ask a Python-related question?"]
+    }
+  ]
+}

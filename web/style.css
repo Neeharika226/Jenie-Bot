@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 40px;
+}
+
+#chat-box {
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.user, .bot {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.user {
+    color: #007bff;
+}
+
+.bot {
+    color: #444;
+}
